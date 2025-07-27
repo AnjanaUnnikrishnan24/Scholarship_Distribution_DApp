@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { ethers } from 'ethers';
-import contractABI from '../assets/ScholarDist.json';
+import contractABI from '../assets/ScholarDis.json';
 import deployedAddresses from '../assets/deployed_addresses.json';
 import Navbar from '../components/Navbar';
  
