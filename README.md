@@ -26,6 +26,6 @@ The `ScholarDist` smart contract enables an **admin** to:
 
 ---
 ## Demo Video Link
-https://youtu.be/8pLm5W8eDno
+[https://youtu.be/8pLm5W8eDno](https://youtu.be/dTrEP3HZuA8)
 
 
