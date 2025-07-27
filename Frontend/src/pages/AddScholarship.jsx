@@ -31,7 +31,7 @@ const AddScholarship = () => {
       const provider = new ethers.BrowserProvider(window.ethereum);
       const signer = await provider.getSigner();
       const contract = new ethers.Contract(
-        deployedAddresses["ScholarModule#ScholarDist"],
+        deployedAddresses["ScholarModule#ScholarDis"],
         contractABI.abi,
         signer
       );

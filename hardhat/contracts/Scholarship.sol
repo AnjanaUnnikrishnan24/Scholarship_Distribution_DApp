@@ -119,7 +119,6 @@ contract ScholarDis {
         Application[] storage apps = scholarshipApplications[_scholarshipId];
         require(apps.length > 0, "No applications");
 
-        // Sort by score descending (bubble sort)
         for (uint i = 0; i < apps.length; i++) {
             for (uint j = i + 1; j < apps.length; j++) {
                 if (apps[j].score > apps[i].score) {
